@@ -1,0 +1,32 @@
+{
+	"require": {
+		"wildoperation/wp-plugin-review-bug": "dev-master",
+		"typisttech/imposter-plugin": "^0.6.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"WODLPA\\": "includes/"
+		}
+	},
+	"extra": {
+		"imposter": {
+			"namespace": "WODLPA\\Vendor"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"typisttech/imposter-plugin": true
+		}
+	},
+	"archive": {
+		"exclude": [
+			".git",
+			".gitignore",
+			"package.json",
+			"package-lock.json",
+			"composer.json",
+			"composer.lock",
+			"typisttech"
+		]
+	}
+}
