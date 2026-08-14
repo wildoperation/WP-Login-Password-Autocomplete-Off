@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Disable Login Password Autocomplete
- * Plugin URI:      https://github.com/wildoperation/Disable-Login-Password-Autocomplete-WordPress-Plugin
+ * Plugin URI:      https://github.com/wildoperation/disable-login-password-autocomplete
  * Description:     Forces autocomplete="off" onto the password field of the WordPress login screen. Resolves security scanner findings without modifying WordPress core.
  * Version:         1.0.0
  * Author:          Wild Operation
