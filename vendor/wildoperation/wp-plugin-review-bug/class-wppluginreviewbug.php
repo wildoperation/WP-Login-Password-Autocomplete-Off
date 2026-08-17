@@ -7,7 +7,7 @@
  * @package WPPluginReviewBug
  */
 
-namespace WODLPA\Vendor\WOWPRB;
+namespace WOWPRB;
 
 /**
  * Handle review banner for a WordPress plugin.

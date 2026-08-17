@@ -1,4 +1,4 @@
-=== Disable Login Password Autocomplete ===
+=== WP Login Password Autocomplete Off ===
 Contributors: wildoperation, timstl
 Tags: login, password, autocomplete, security, hardening
 Requires at least: 6.2

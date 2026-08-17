@@ -27,9 +27,7 @@ return array(
     'TypistTech\\Imposter\\StringUtil' => $vendorDir . '/typisttech/imposter/src/StringUtil.php',
     'TypistTech\\Imposter\\Transformer' => $vendorDir . '/typisttech/imposter/src/Transformer.php',
     'TypistTech\\Imposter\\TransformerInterface' => $vendorDir . '/typisttech/imposter/src/TransformerInterface.php',
-    'WODLPA\\Localize' => $baseDir . '/includes/Localize.php',
     'WODLPA\\Login' => $baseDir . '/includes/Login.php',
     'WODLPA\\Plugin' => $baseDir . '/includes/Plugin.php',
     'WODLPA\\Util' => $baseDir . '/includes/Util.php',
-    'WODLPA\\Vendor\\WOWPRB\\WPPluginReviewBug' => $vendorDir . '/wildoperation/wp-plugin-review-bug/class-wppluginreviewbug.php',
 );

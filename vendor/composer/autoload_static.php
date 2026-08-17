@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitaa3307e911c0947656d551d2857d0f49
+class ComposerStaticInite0c516c96f3223f4dd365478a2b1e8d4
 {
     public static $files = array (
         '23084107b6d1f20643b63bd5e97de6aa' => __DIR__ . '/..' . '/wildoperation/wp-plugin-review-bug/class-wppluginreviewbug.php',
@@ -59,19 +59,17 @@ class ComposerStaticInitaa3307e911c0947656d551d2857d0f49
         'TypistTech\\Imposter\\StringUtil' => __DIR__ . '/..' . '/typisttech/imposter/src/StringUtil.php',
         'TypistTech\\Imposter\\Transformer' => __DIR__ . '/..' . '/typisttech/imposter/src/Transformer.php',
         'TypistTech\\Imposter\\TransformerInterface' => __DIR__ . '/..' . '/typisttech/imposter/src/TransformerInterface.php',
-        'WODLPA\\Localize' => __DIR__ . '/../..' . '/includes/Localize.php',
         'WODLPA\\Login' => __DIR__ . '/../..' . '/includes/Login.php',
         'WODLPA\\Plugin' => __DIR__ . '/../..' . '/includes/Plugin.php',
         'WODLPA\\Util' => __DIR__ . '/../..' . '/includes/Util.php',
-        'WODLPA\\Vendor\\WOWPRB\\WPPluginReviewBug' => __DIR__ . '/..' . '/wildoperation/wp-plugin-review-bug/class-wppluginreviewbug.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitaa3307e911c0947656d551d2857d0f49::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitaa3307e911c0947656d551d2857d0f49::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitaa3307e911c0947656d551d2857d0f49::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite0c516c96f3223f4dd365478a2b1e8d4::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite0c516c96f3223f4dd365478a2b1e8d4::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite0c516c96f3223f4dd365478a2b1e8d4::$classMap;
 
         }, null, ClassLoader::class);
     }
